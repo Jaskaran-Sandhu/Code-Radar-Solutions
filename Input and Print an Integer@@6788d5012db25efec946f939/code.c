@@ -5,8 +5,3 @@ char* welcome(num) {
     printf("You entered: %d", num);
 }
 
-int main() {
-    int num;
-    welcome(num);
-    return 0;
-}
