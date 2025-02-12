@@ -1,12 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a, b;
+    int a, b, result;
     scanf("%d %d", &a, &b);
-    if((a>0 && b<0) || (a<0 && b>0)){
-        printf("True");
-    }
-    else{
-        printf("False");
-    }
+    result = a|b;
+    printf("%d",result);
     return 0;
 }
